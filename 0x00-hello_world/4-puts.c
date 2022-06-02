@@ -9,7 +9,7 @@
 
 int main()
 {
-   char str1[20];
+   char str1[70];
 
     strcpy(str1, "\"Programming is like building a multilingual puzzle");
 
