@@ -10,7 +10,7 @@ int main(void)
 {
 int intT;
 char charT;
-long longT;
+double longT;
 float floatT;
 
 printf("Size of a char: %2d byte(s)\n", sizeof(charT));
