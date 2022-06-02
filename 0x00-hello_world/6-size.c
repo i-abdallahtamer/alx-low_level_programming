@@ -2,32 +2,20 @@
 #include <conio.h>
 
 /**
- *  * main - Entry Point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ *main - Entry Point
+ *
+ *Return: Always 0 (Success)
+ */
 
 int main(void)
 {
 
 clrscr();
-printf("short int is %2d bytes \n", sizeof(short int));
-printf("int is %2d bytes \n", sizeof(int));
-printf(" int * is %2d bytes \n", sizeof(int *));
-printf(" long int is %2d bytes \n", sizeof(long int));
-printf("   long int * is %2d bytes \n", sizeof(long int *));
-printf("   signed int is %2d bytes \n", sizeof(signed int));
-printf("\n");
-printf("        float is %2d bytes \n", sizeof(float));
-printf("      float * is %2d bytes \n", sizeof(float *));
-printf("       double is %2d bytes \n", sizeof(double));
-printf("     double * is %2d bytes \n", sizeof(double *));
-printf("  long double is %2d bytes \n", sizeof(long double));
-printf("\n");
-printf("  signed char is %2d bytes \n", sizeof(signed char));
-printf("         char is %2d bytes \n", sizeof(char));
-printf("       char * is %2d bytes \n", sizeof(char *));
-
+printf("Size of a char: %2d byte(s)\n", sizeof(char));
+printf("Size of an int:  %2d byte(s) \n ", sizeof(int));
+Printf("Size of a long int: %2d byte(s) \n ", sizeof(long int));
+Printf("Size of a long  long int: %2d byte(s) \n ", sizeof(long long int));
+Printf("Size of a float: %2d byte(s) \n ", sizeof(float));
 
 return (0);
 }
