@@ -1,0 +1,1 @@
+ This repository contains shell script and c programming file from the task asigned on alx intranet , the following each project will be in its own directiory and will contain various task , all files are executable and follows standard guide lines  
