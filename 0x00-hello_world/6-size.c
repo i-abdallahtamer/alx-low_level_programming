@@ -11,7 +11,7 @@ int main(void)
 int intT;
 char charT;
 long longT;
-long long longTT
+long long longTT;
 float floatT;
 
 printf("Size of a char: %2d byte(s)\n", sizeof(charT));
