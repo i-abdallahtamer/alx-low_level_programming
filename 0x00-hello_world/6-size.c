@@ -1,25 +1,21 @@
 #include <stdio.h>
-
 /**
- *main - Entry Point
- *
- *Return: Always 0 (Success)
- */
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
 
 int main(void)
 {
-
-char chardt;
-int intdt;
-long longT;
-long long longTT;
-float floatT;
-
-printf("Size of a char: %ld byte(s)\n", sizeof(chardt));
-printf("Size of an int:  %ldbyte(s)\n ", sizeof(intdt));
-Printf("Size of a long int: %ldbyte(s)\n ", sizeof(longT));
-Printf("Size of a long  long int: %ldbyte(s)\n ", sizeof(longTT));
-Printf("Size of a float: %ldbyte(s)\n", sizeof(floatT));
-
+char forchar;
+int forint;
+long forlong;
+long long forlonglong;
+float forfloat;
+printf("Size of a char: %lu byte(s)\n", sizeof(forchar));
+printf("Size of an int: %lu byte(s)\n", sizeof(forint));
+printf("Size of a long int: %lu byte(s)\n", sizeof(forlong));
+printf("Size of a long long int: %lu byte(s)\n", sizeof(forlonglong));
+printf("Size of a float: %lu byte(s)\n", sizeof(forfloat));
 return (0);
 }
