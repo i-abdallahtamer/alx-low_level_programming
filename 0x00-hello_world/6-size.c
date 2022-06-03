@@ -9,14 +9,14 @@
 int main(void)
 {
 
-char charT;
-int intT;
+char chardt;
+int intdt;
 long longT;
 long long longTT;
 float floatT;
 
-printf("Size of a char: %ldbyte(s)\n", sizeof(charT));
-printf("Size of an int:  %ldbyte(s)\n ", sizeof(intT));
+printf("Size of a char: %ld byte(s)\n", sizeof(chardt));
+printf("Size of an int:  %ldbyte(s)\n ", sizeof(intdt));
 Printf("Size of a long int: %ldbyte(s)\n ", sizeof(longT));
 Printf("Size of a long  long int: %ldbyte(s)\n ", sizeof(longTT));
 Printf("Size of a float: %ldbyte(s)\n", sizeof(floatT));
