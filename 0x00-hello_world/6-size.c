@@ -8,8 +8,9 @@
 
 int main(void)
 {
-int intT;
+
 char charT;
+int intT;
 long longT;
 long long longTT;
 float floatT;
