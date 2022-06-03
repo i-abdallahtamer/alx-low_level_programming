@@ -14,11 +14,11 @@ long longT;
 long long longTT;
 float floatT;
 
-printf("Size of a char: %2dbyte(s)\n", sizeof(charT));
-printf("Size of an int:  %2dbyte(s)\n ", sizeof(intT));
-Printf("Size of a long int: %2dbyte(s)\n ", sizeof(longT));
-Printf("Size of a long  long int: %2dbyte(s)\n ", sizeof(longTT));
-Printf("Size of a float: %2dbyte(s)\n", sizeof(floatT));
+printf("Size of a char: %ldbyte(s)\n", sizeof(charT));
+printf("Size of an int:  %ldbyte(s)\n ", sizeof(intT));
+Printf("Size of a long int: %ldbyte(s)\n ", sizeof(longT));
+Printf("Size of a long  long int: %ldbyte(s)\n ", sizeof(longTT));
+Printf("Size of a float: %ldbyte(s)\n", sizeof(floatT));
 
 return (0);
 }
