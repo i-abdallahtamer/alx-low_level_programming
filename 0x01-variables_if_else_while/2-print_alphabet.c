@@ -9,7 +9,7 @@
 
 int main(void)
 {
-char ch = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+char ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 lower = tolower(ch);
 putchar(ch);
 
