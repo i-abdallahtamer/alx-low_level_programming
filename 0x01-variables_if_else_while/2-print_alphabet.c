@@ -9,9 +9,9 @@
 
 int main(void)
 {
-char ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-lower = tolower(ch);
-putchar(ch);
+char ch;
+for(ch = 'A' ; ch <= 'Z' ; ch++)
+putchar(tolower(ch));
 
 return (0);
 }
