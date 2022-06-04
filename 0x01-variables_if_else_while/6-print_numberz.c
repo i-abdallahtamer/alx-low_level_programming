@@ -9,13 +9,13 @@
 
 int main(void)
 {
-char ch;
-char space = '\n';
+int ch;
+
 for (ch = '0' ; ch <= '9' ; ch++)
 {
 putchar(tolower(ch));
 }
-putchar(space);
+putchar("\n");
 
 return (0);
 }
