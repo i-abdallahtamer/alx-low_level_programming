@@ -11,7 +11,7 @@ int main(void)
 {
 char ch;
 char space = '\n';
-for (ch = 'Z' ; ch <= 'A' ; ch--)
+for (ch = 'Z' ; ch >= 'A' ; ch--)
 {
 putchar(tolower(ch));
 }
