@@ -15,7 +15,7 @@ for (ch = '0' ; ch <= '9' ; ch++)
 {
 putchar(tolower(ch));
 }
-putchar("\n");
+putchar();
 
 return (0);
 }

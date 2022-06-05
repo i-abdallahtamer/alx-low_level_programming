@@ -13,6 +13,10 @@ char ch;
 char space = '\n';
 for (ch = 'A' ; ch <= 'Z' ; ch++)
 {
+if (ch == 'E'|| ch == 'Q')
+{
+continue;
+{
 putchar(tolower(ch));
 }
 putchar(space);
