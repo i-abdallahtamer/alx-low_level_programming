@@ -9,13 +9,13 @@
 
 int main(void)
 {
-int ch;
+int n;
 
-for (ch = '0' ; ch <= '9' ; ch++)
+for (n = 0 ; n < 10 ; n++)
 {
-putchar(tolower(ch));
+putchar(n % 10 + '0');
 }
-putchar();
+putchar('\n');
 
 return (0);
 }
