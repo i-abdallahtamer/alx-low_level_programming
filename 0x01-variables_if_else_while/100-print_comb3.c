@@ -18,7 +18,7 @@ for (p = n + 1 ; p <= 9 ; p++)
 {
 putchar(n + '0');
 putchar(p + '0');
-if (n < 9)
+if (n < 8)
 {
 putchar(',');
 putchar(' ');
