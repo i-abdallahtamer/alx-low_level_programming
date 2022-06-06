@@ -22,7 +22,7 @@ for (q = p + 1 ; q <= 9 ; q++)
 putchar(n + '0');
 putchar(p + '0');
 putchar(q + '0');
-if (n < 8)
+if (n < 7)
 {
 putchar(',');
 putchar(' ');
