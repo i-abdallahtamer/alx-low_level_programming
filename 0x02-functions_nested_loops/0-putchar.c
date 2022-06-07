@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - Entry point
  *
@@ -6,8 +6,11 @@
  */
 
 int main(void)
+char ch[10] = "_putchar";
+char space = "\n";
 {
-printf("_putchar\n");
+putchar(ch);
+putchar(space);
 
 return(0);
 }
