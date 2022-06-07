@@ -7,7 +7,7 @@
 
 int main(void)
 {
-return (1, "_putchar\n",57 );
+_putchar(1, "_putchar\n",57 );
 
 return(0);
 }
