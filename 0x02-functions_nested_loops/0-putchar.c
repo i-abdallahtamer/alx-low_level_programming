@@ -6,11 +6,8 @@
  */
 
 int main(void)
-char ch[10] = "_putchar";
-char space = "\n";
 {
-putchar(ch);
-putchar(space);
+return (1, "_putchar\n",7 )
 
 return(0);
 }
