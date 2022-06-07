@@ -7,7 +7,8 @@
 
 int main(void)
 {
-_putchar( "_putchar\n" );
+char ch[10]='_putchar';
+_putchar(ch);
 
 return(0);
 }
