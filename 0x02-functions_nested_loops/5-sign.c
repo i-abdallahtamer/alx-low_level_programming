@@ -11,19 +11,20 @@ int print_sign(int n)
 
 if (n > 0)
 {
-
-_putchar (75);
+r = print_sign(75);
+_putchar (r);
 return (1);
 }
 else if (n < 0)
 {
-
-_putchar (77);
+r = print_sign(77); 
+_putchar (r);
 return (-1);
 }
 else
 }
-_putchar(80);
+r = print_sign(80); 
+_putchar(r);
 return (0);
 }
 }
