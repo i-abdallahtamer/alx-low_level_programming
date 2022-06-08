@@ -5,12 +5,13 @@
  *    * Return: Always 0 (Success)
  *     */
 int main(void)
-char ch;
-char space='\n';
-{
-for (ch ="a" ch <= z; ch++)
-{
-_putchar(tolower(ch));
-}
-_putchar(space);
+int ch;
 
+{
+for (ch =79 ch <= 122; ch++)
+{
+_putchar (ch);
+}
+_putchar ('\n');
+return (0);
+}
