@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* add -function call to give result 
-* @c: the character to check
+ * main - num1, num2
+* add -function call to give result
 * Return: the addition of two numbers add
 * num1: first parameter
 * num2: second parameter
