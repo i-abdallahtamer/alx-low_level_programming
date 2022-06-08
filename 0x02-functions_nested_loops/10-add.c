@@ -13,5 +13,5 @@ int plus;
 plus= num1 + num2;
 
 return ( plus);
-printf('\n');
+printf("\n");
 }
