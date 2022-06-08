@@ -3,7 +3,7 @@
 /**
 * main - Entry point
 *
-* Description: '2 parameters num1,num2, 1 function  ad
+* Description: '2 parameters 'num1;,'num2', 1 function  ad
 * num1: first parameter@
 *
 * Return: Always  Plus  (Success)
