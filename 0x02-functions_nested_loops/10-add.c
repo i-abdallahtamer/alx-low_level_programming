@@ -12,4 +12,6 @@ int add(int num1, int num2)
 int plus;
 plus= num1 + num2;
 printf("%d\n", plus);
+
+return (0);
 }
