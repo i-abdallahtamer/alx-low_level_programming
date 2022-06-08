@@ -11,5 +11,5 @@ int add(int num1, int num2)
 {
 int plus;
 plus= num1 + num2;
-printf("%d\n", add);
+printf("%d\n", plus);
 }
