@@ -1,14 +1,15 @@
 #include "main.h"
 /**
-* print_alphabet - Entry point
-* Description: prints the alphabet in small caps
-* Return: Always 0 (Success)
-*/
+ *  * _islower - checks for lowercase character
+ *   * @c: the character to check
+ *    * Return: 1 if c is lowercase, 0 otherwise
+ *     */
+
 
 int _islower(int c)
 {
 
-if (c == 'c')
+if (c <= 'a' && c >= 'z')
 {
 return (1);
 }
