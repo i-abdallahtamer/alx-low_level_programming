@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _isalpha - checks for alphabet
+* add - function that adds two integers and returns the result.
 * @c: the character to check
-* Return: 1 if c is lowercase,or upper,  0 otherwise
+* Return: the addition of two numbers 
 */
 
 
 int add(int num1, int num2)
 {
 int plus;
-plus= num1 + num2;
+plus = num1 + num2;
 
-return ( plus);
+return (plus);
 printf("\n");
 }
