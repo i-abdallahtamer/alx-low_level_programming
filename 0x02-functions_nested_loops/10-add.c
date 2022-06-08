@@ -4,8 +4,8 @@
 /**
 * main - Entry point
 *
-* Description: a function that adds two number and return the output 
-* @add: function call
+* Description: a function that adds two number and return the output
+* 
 * @num1: first int parameter
 * @num2: secont int parameter
 * Return: Always  Plus  (Success)
