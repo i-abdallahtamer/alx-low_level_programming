@@ -2,9 +2,9 @@
 #include "main.h"
 /**
 * main - Entry point
-* 
-* Description: 'the program's description'
-* 
+*
+* Description: '2 parameters num1,num2, 1 function  add
+*
 * Return: Always  Plus  (Success)
 */
 
