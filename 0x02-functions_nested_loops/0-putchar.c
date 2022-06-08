@@ -7,8 +7,10 @@
 
 int main(void)
 {
-
-write(1,"_putchar\n", 57);
+char ch[] = "_putchar";
+for(int a=0; a<= 8; a++)
+{
+_putchar(ch[a]);
 
 return(0);
 }
