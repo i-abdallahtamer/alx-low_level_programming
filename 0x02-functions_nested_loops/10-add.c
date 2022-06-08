@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
 * main - Entry point
 *
 * Description: '2 parameters 'num1;,'num2', 1 function  ad
 * num1: first parameter@
-*
+* @variable/num1
+* @num2: secont int parameter
 * Return: Always  Plus  (Success)
 */
 
