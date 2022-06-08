@@ -5,7 +5,7 @@
 * main - Entry point
 *
 * Description: a function that takes two number and return the output
-* function: add
+* add- takes two input and return the sum
 * @num1: first int parameter
 * @num2: secont int parameter
 * Return: Always  Plus  (Success)
