@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * _isalpha - checks for alphabet
@@ -8,6 +9,7 @@
 
 int add(int num1, int num2)
 {
-add = num1 + num2;
+int plus;
+plus= num1 + num2;
 printf("%d\n", add);
 }
