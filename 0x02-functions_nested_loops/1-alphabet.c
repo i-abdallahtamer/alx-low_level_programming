@@ -8,7 +8,7 @@ int main(void)
 char ch;
 
 {
-for (ch =79; ch <= 122; ch++)
+for (ch 'a'; ch <= 'z'; ch++)
 {
 _putchar (ch);
 }
