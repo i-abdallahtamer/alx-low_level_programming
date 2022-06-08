@@ -3,7 +3,9 @@
 /**
 * add - function that adds two integers and returns the result.
 * @c: the character to check
-* Return: the addition of two numbers 
+* Return: the addition of two numbers add 
+* parameters : num1, num2
+*
 */
 
 
