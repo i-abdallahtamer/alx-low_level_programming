@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* add - function that adds two integers and returns the result.
+* add -function call to give result 
 * @c: the character to check
-* Return: the addition of two numbers add 
-* parameters : num1, num2
+* Return: the addition of two numbers add
+* num1: first parameter
+* num2: second parameter
 *
 */
 
