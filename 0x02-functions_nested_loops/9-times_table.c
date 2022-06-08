@@ -14,10 +14,10 @@ int mult;
 for (j = 0; j <= 9; j++)
 {
 
-for  (i = 1;  i <= 9; i++)
+for  (i = 0;  i <= 9; i++)
 {
  mult = i * j;
-printf ("%d,", mult);
+printf ("%d, ", mult);
 }
 printf ("\n");
  
