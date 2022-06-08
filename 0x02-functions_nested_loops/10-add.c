@@ -3,9 +3,7 @@
 
 /**
 * main - Entry point
-*
-* Description: a function that takes two number and return the output
-* add - returns plus /  takes two input and return the sum
+* add - returns the sum of two numbers 
 * @num1: first int parameter
 * @num2: secont int parameter
 * Return: Always  Plus  (Success)
