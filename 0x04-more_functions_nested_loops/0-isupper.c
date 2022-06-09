@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* int _isupper - takes a character and return 1
+* _isupper - takes a character and return 1
 * if its an upper case
 * @c: letter of the alphabet
 *
@@ -12,11 +12,11 @@ int _isupper(int c)
 {
 if (c >= 'a' && c <= 'z')
 {
-return (1);
+return (0);
 }
 else
 {
-return (0);
+return (1);
 }
 
-}
+i}
