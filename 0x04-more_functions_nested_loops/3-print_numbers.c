@@ -3,7 +3,7 @@
 /**
 * print_numbers - print the numbers from 0 to 9
 *@ch; variable to hold numbers
-* Return: void 
+* Return: void
 */
 
 void print_numbers(void)
