@@ -33,6 +33,6 @@ if (i < n)
 _putchar('\n');
 }
 }
-__putchar('\n');
+}__putchar('\n');
 
 }}
