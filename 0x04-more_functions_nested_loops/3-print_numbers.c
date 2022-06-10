@@ -2,7 +2,7 @@
 
 /**
 * print_numbers - print the numbers from 0 to 9
-*@ch; variable to hold numbers
+* @ch; variable to hold numbers
 * Return: void
 */
 
