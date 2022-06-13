@@ -9,7 +9,7 @@
 
 int _strlen(char *s)
 {
-	int b = 0;
+int b = 0;
 int count = 0;
 
 while ( s[b]!= "\0")
@@ -26,4 +26,5 @@ count += 1;
 b++;
 }
 _putchar(count / 10 + '0');
+return (0);
 }
