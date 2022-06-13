@@ -3,21 +3,27 @@
 /**
  * _strlen - return the length of a string
  * @s : Parameter accept  string
- * @count: store count value
  * Return: length of string
  *
  */
 
 int _strlen(char *s)
 {
-int b;
+	int b = 0;
 int count = 0;
 
-for (b = 0; s[b] != '\0'; b++)
-{
+while ( s[b]!= "\0")
 
+{
+if ( s[b] == '\0'){
+
+break;
+}
+else
+{
 count += 1;
 }
-_putchar(count);
-return(0);
+b++;
+}
+_putchar(count / 10 + '0');
 }
