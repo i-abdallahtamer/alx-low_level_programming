@@ -25,6 +25,13 @@ count += 1;
 }
 b++;
 }
-_putchar(count % 10 + '0');
+
+if (count >= 10)
+{
+_putchar(count / 10 + '0');
+}
+_putchar(count % 10  + '0');
+
+}
 return (0);
 }
