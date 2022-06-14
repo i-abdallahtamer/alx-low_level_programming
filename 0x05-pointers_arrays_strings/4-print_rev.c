@@ -9,20 +9,19 @@
 
 void print_rev(char *s)
 {
-int c;
-int len;
+
+int len = 0;
 
 char space = '\n';
-for (c = 0; s[c] != '\0'; c++)
+while (s[len] != '\0')
 {
+len++;
 }
-
-len = c;
 while (len >= 0)
 
 {
 _putchar(s[len]);
 len--;
 }
-_putchar(space);
+_putchar(10);
 }
