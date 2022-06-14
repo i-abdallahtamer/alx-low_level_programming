@@ -8,24 +8,24 @@
 
 int print_sign(int n)
 {
-int r;
+
 
 if (n > 0)
 {
-r = print_sign(75);
-_putchar (r);
+
+_putchar (75);
 return (1);
 }
 else if (n < 0)
 {
-r = print_sign(77); 
-_putchar (r);
-return (-1);
+
+_putchar (77);
+return (1);
 }
 else
 {
-r = print_sign(80); 
-_putchar(r);
+ 
+_putchar(80);
 return (0);
 }
 }
