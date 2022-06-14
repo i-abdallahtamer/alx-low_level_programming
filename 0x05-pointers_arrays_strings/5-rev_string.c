@@ -20,7 +20,7 @@ _putchar(s[c]);
 len = c;
 _putchar(10);
 
-while (i < len)
+while (i <= len)
 {
 _putchar(s[len]);
 len--;
