@@ -12,4 +12,5 @@ int _strlen(char *s);
 void print_rev(char *s);
 void puts2(char *str);
 void puts_half(char *str);
+char *_strcpy(char *dest, char *src);
 #endif /* MAIN_H */
