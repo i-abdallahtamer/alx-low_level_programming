@@ -15,7 +15,7 @@ char q, p;
 while (s[len])
 {
 q = s[len];
-return(q);
+
 len++;
 }
 len--;
@@ -24,7 +24,7 @@ len--;
 while (len >= 0)
 {
 p = s[len];
-return(p);
+
 len--;
 }
 
