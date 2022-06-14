@@ -12,6 +12,7 @@ void print_rev(char *s)
 int c;
 int len;
 int i;
+char space = '\n';
 for (c = 0; s[c] != '\0'; c++)
 {
 }
@@ -21,5 +22,5 @@ for (i = len; i >= 0; i--)
 {
 _putchar(s[i]);
 }
-
+_putchar(space);
 }
