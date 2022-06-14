@@ -21,7 +21,7 @@ len = c;
 while (len >= 0)
 
 {
-_putchar(s[i]);
+_putchar(s[len]);
 len--;
 }
 _putchar(space);
