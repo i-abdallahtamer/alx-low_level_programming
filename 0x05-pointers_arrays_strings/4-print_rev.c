@@ -16,7 +16,7 @@ char space = '\n';
 for (c = 0; s[c] != '\0'; c++)
 {
 }
-break;
+
 len = c;
 while (len >= 0)
 
