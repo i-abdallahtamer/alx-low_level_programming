@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_sign - greater, less, zero
-* @n: parameter to pass 
+* @n: parameter to pass
 * Return: 1 if c is lowercase, 0 otherwise
 */
 
