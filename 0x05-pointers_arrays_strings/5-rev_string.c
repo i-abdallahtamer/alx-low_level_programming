@@ -23,6 +23,10 @@ _putchar(10);
 for (i = len; i >= 0; i--)
 {
 _putchar(s[i]);
+if (i == 0)
+{
+break;
+}
 
 }
 
