@@ -9,31 +9,11 @@
 
 int _strlen(char *s)
 {
-int b = 0;
-int count = 0;
+int b;
 
-while (s[b] != '\0')
-{
-if (s[b] == '\0')
+for(b = 0; s[b] != '\0'; b++)
 {
 
-break;
 }
-else
-{
-count += 1;
-}
-b++;
-}
-
-if (count >= 10)
-{
-_putchar(count / 10 + '0');
-}
-else
-{
-_putchar(count % 10  + '0');
-
-}
-return (0);
+return (b);
 }
