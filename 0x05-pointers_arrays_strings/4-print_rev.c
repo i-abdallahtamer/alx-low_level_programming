@@ -16,6 +16,7 @@ while (s[len])
 {
 len++;
 }
+len--;
 while (len >= 0)
 
 {
