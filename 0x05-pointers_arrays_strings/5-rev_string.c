@@ -18,9 +18,10 @@ for (c = 0; s[c] != '\0'; c++)
 }
 len = c;
 
-for (i = len; i >= 0; i--)
+while (c < len)
 {
 _putchar(s[i]);
+c--;
 }
 
 }
