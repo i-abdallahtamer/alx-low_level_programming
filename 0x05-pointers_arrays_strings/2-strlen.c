@@ -30,6 +30,8 @@ if (count >= 10)
 {
 _putchar(count / 10 + '0');
 }
+else
+}
 _putchar(count % 10  + '0');
 
 }
