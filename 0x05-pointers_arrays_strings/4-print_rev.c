@@ -16,11 +16,13 @@ char space = '\n';
 for (c = 0; s[c] != '\0'; c++)
 {
 }
+break;
 len = c;
+while (len >= 0)
 
-for (i = len; i >= 0; i--)
 {
 _putchar(s[i]);
+len--;
 }
 _putchar(space);
 }

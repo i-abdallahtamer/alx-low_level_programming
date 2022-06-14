@@ -12,17 +12,18 @@ void rev_string(char *s)
 int c;
 int len;
 int i;
+char q, p;
 
 for (c = 0; s[c] != '\0'; c++)
 {
-_putchar(s[c]);
+s[c] = p;
 }
 len = c;
-_putchar(10);
+
 
 for (i = len; i >= 0; i--)
 {
-_putchar(s[i]);
+s[i] = q;
 if (i == 0)
 {
 break;
