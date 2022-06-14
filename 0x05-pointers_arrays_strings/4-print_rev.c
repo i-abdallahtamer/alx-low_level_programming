@@ -12,7 +12,6 @@ void print_rev(char *s)
 
 int len = 0;
 
-char space = '\n';
 while (s[len] != '\0')
 {
 len++;
