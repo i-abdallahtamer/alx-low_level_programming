@@ -12,10 +12,10 @@ int _strlen(char *s)
 int b = 0;
 int count = 0;
 
-while ( s[b]!= '\0')
-
+while (s[b] != '\0')
 {
-if (s[b] == '\0'){
+if (s[b] == '\0')
+{
 
 break;
 }
