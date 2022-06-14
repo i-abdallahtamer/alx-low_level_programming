@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* print_sign ,greater, less, zero
-* @c: the character to check
+* print_sign - greater, less, zero
+* @n: parameter to pass 
 * Return: 1 if c is lowercase, 0 otherwise
 */
 
@@ -24,8 +24,8 @@ return (1);
 }
 else
 {
- 
-_putchar(80);
+
+_putchar(48);
 return (0);
 }
 }
