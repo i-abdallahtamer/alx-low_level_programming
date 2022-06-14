@@ -15,8 +15,10 @@ int i = 0;
 
 for (c = 0; s[c] != '\0'; c++)
 {
+_putchar(s[c]);
 }
 len = c;
+_putchar(10);
 
 while (i < len)
 {
