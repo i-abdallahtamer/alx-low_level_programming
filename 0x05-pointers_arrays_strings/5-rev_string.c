@@ -1,29 +1,26 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_array - return the length of a string
- * @a : name of array
- * @n : size of array
- * Return: length of string
+ * rev_string - return the length of a string
+ * @s : Parameter accept  string
+ * Return: nothng
  *
  */
 
-void print_array(int *a, int n)
+void rev_string(char *s)
 {
+int c;
+int len;
 int i;
-for (i = 0; i < n; i++)
+
+for (c = 0; s[c] != '\0'; c++)
 {
-printf("%d", a[i]);
-if (i == n - 1)
+}
+len = c;
+
+for (i = len; i >= 0; i--)
 {
-continue;
+_putchar(s[i]);
 }
-else
-{
-printf(", ");
-}
-}
-printf("\n");
 
 }
