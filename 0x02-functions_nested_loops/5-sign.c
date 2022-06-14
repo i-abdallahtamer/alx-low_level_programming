@@ -23,7 +23,7 @@ _putchar (r);
 return (-1);
 }
 else
-}
+{
 r = print_sign(80); 
 _putchar(r);
 return (0);
