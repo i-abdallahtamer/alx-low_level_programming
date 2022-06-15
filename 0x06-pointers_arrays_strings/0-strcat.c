@@ -3,7 +3,7 @@
 /**
  * _srtcat - return the length of a string
  * @dest : Parameter accept  string
- * @src : second parameter 
+ * @src : second parameter
  * Return: nothng
  *
  */
@@ -19,7 +19,8 @@ i++;
 }
 while (src[j] != '\0')
 {
-dest[i] += src[j];
+dest[i + j] = src[j];
+dest[i + j] = '\0';
 }
-return(dest);
+return (dest);
 }
