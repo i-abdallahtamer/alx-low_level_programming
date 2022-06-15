@@ -20,11 +20,17 @@ else if (n < 98)
 {
 while (n != 98)
 {
+if (n < 0)
+{
 _putchar('-');
 n = n * -1;
+}
 if (n / 10)
 print_to_98(n / 10);
 _putchar(n % 10 + '0');
+_putchar(',');
+_putchar(' ');
+n++;
 }
 }
 else
