@@ -24,7 +24,7 @@ dia1 += a[i];
 i += (size + 1);
 }
 
-printf("%d," ,dia1);
+printf("%d,", dia1);
 
 while (j < len)
 {
