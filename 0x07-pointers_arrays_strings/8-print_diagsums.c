@@ -13,7 +13,7 @@
 void print_diagsums(int *a, int size)
 {
 int i = 0;
-int j = (size - 1);
+int j = 0;
 int dia1 = 0;
 int dia2 = 0;
 int len = size * size;
@@ -25,11 +25,10 @@ i += (size + 1);
 }
 
 printf("%d,", dia1);
-
-while (j < len)
+for (j = size - 1; j < len - 1; j += size - 1)
 {
+
 dia2 += a[j];
-j += (size - 1);
 }
 
 printf("%d \n", dia2);
