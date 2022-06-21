@@ -31,5 +31,5 @@ for (j = size - 1; j < len - 1; j += size - 1)
 dia2 += a[j];
 }
 
-printf("%d \n", dia2);
+printf("%d\n", dia2);
 }
