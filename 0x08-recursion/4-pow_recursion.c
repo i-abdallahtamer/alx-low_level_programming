@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _pow_recursion: retun the power of x
+ * _pow_recursion -  retun the power of x
  * @x : first parameter
  * @y : second parmeter
  * Return: -1 if y less than o
