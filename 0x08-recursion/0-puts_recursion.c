@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * _puts_recursion - fills memory with a constant byte,
- *
- *
+ * @s : parameter string 
+ * Return : string 
  */
 
 void _puts_recursion(char *s)
@@ -16,7 +16,7 @@ return;
 }
 
 _putchar(*s);
-_puts_recursion( s + 1);
+_puts_recursion(s + 1);
 
 }
 
