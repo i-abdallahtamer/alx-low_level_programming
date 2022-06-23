@@ -4,12 +4,13 @@
  * _strlen_recursion - return the length of a string
  *
  * @s : parameter string
+ *
  * Return : lengh
  */
 
 int _strlen_recursion(char *s)
 {
-if (*s =='\0')
+if (*s == '\0')
 {
 return (0);
 }
