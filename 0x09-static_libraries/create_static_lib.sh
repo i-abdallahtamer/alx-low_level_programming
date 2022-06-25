@@ -1,5 +1,6 @@
 #!/bin/bash
 gcc -Wall -pendatic -Werror -Wextra -c *.c
 gcc -c *.c
-ar -rc libmy.a *.o
+ar -rc liball.a *.o
+ranlib liball.a
 
