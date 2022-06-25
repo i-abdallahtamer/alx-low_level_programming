@@ -21,7 +21,7 @@ if (argc > 1)
 
 	mul *= atoi(argv[count]);
 	}
-printf("%d\n", mul);	
+printf("%d\n", mul);
 }
 else
 {
