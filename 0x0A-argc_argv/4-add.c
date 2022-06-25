@@ -15,8 +15,8 @@ int count;
 int add = 0;
 if (argc > 1)
 {
-	for (count = 1; count < argc; count++)
-	{
+for (count = 1; count < argc; count++)
+{
 if (atoi(argv[count]))
 {
 
