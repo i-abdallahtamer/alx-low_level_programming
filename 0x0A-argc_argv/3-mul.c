@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 int count;
 int mul = 1;
-if (argc > 1)
+if (argc > 2)
 {
 	for (count = 1; count < argc; count++)
 	{
@@ -23,7 +23,7 @@ if (argc > 1)
 	}
 printf("%d\n", mul);
 }
-else if (argc < 1)
+else 
 {
 printf("Error\n");
 return (1);
