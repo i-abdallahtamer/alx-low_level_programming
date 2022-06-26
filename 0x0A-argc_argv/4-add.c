@@ -17,7 +17,7 @@ if (argc > 1)
 {
 for (count = 1; count < argc; count++)
 {
-if (atoi(argv[count]))
+if ((atoi(argv[count]) * 0) == 0 )
 {
 
 	add += atoi(argv[count]);
