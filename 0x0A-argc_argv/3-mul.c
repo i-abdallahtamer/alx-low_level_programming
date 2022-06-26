@@ -23,7 +23,7 @@ if (argc > 2)
 	}
 printf("%d\n", mul);
 }
-else 
+else
 {
 printf("Error\n");
 return (1);
