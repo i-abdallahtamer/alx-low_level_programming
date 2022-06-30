@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <limits.h>
 /**
- * m - stores 3 int in a new allocated space in memory and prints the sum
- *
- *
+ * malloc_checked - allocates memory using malloc
+ * @b: size of memory to be allocated
  * Return: nothing
  */
 
