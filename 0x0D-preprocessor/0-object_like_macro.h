@@ -1,2 +1,2 @@
-#define GRAND0-OBJECT_MACRO_H
+
 #define SIZE 1024
