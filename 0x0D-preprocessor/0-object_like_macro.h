@@ -1,2 +1,2 @@
-#include "gard0-object_like_macro.h"
+#define GRAND0-OBJECT_MACRO_H
 #define SIZE 1024
