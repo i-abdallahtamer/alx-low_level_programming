@@ -3,7 +3,7 @@
 
 /**
  * array_iterator - prints an integer
- * @elem: the integer to print
+ * @array: the array of element
  * @size : the size of the array
  * @action :the pointer to the function that is used
  * Return: Nothing.
@@ -12,7 +12,7 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 if (array == NULL || action == NULL)
-		return;
+	return;
 
 	while (size-- > 0)
 	{
