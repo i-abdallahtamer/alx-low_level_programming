@@ -20,11 +20,10 @@ for (size = 0; temp != NULL; size++)
 {
 	if (temp->str == NULL)
 		printf("[0] (nill) \n");
-	
+
 	else
 		printf(" [%d] %s\n", temp->len, temp->str);
-        temp = temp->next;
-        
+temp = temp->next;
 }
 return (size);
 }
