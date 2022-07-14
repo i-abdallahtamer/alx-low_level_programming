@@ -19,8 +19,8 @@ size_t size;
 for (size = 0; temp != NULL; size++)
 {
 
-        temp = temp->next;
-        
+temp = temp->next;
+
 }
 return (size);
 }
