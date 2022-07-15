@@ -19,7 +19,7 @@ size_t size;
 for (size = 0; temp != NULL; size++)
 {
 	if (temp->str == NULL)
-		printf("[0] (nill) \n");
+		printf("[0] (nill)\n");
 
 	else
 		printf("[%d] %s\n", temp->len, temp->str);
