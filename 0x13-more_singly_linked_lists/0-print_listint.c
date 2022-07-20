@@ -15,8 +15,8 @@ size_t size;
 
 for (size = 0; temp != NULL; size++)
 {
-	if (temp == NULL)
-		printf("[0] (nill)\n");
+if (temp == NULL)
+printf("[0] (nill)\n");
 
 	else
 		printf("%d\n", temp->n);
