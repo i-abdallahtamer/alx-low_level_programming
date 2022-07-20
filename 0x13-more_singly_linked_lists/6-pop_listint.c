@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * free_list -add node to list.
- *Description: Function that frees a list_t list
+ * pop_listint -remove the first node
+ *Description: Function the first node of a list_t list
  * @head: pointer to a pointer
  * Return: void.
  **/
