@@ -5,6 +5,7 @@
  *add_nodeint -print list.
  *Description: Function that prints content of a single linked list
  * @head: pointer to a structure typedef list_t
+ * @n: integer
  * Return: the number of nodes
  **/
 listint_t *add_nodeint(listint_t **head, const int n)
