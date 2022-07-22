@@ -12,8 +12,8 @@
 int get_bit(unsigned long int n, unsigned int index)
 
 {
- char b;
- unsigned int j;
+char b;
+unsigned int j;
 
 	j = (n >> index);
 	b = (j & 1);
